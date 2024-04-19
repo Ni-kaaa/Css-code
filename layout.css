@@ -1,0 +1,33 @@
+
+.box-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(3,500px);
+    gap: 20px;
+}
+.box{
+    border-radius: 10px;
+    font-size: 28px;
+    color: black;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+    display: grid;
+    padding-left: center;
+    text-align: center;
+    place-content: center;
+}
+.box-color{
+    background-color: lightgreen;
+}
+.box4, .box7{
+    background-color: lightcoral;
+    grid-column: span 2;
+}
+
